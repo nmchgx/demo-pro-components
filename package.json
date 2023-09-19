@@ -1,0 +1,21 @@
+{
+  "name": "demo-pro-components",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@8.6.5",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "start": "pnpm run -C packages/demo start",
+    "build": "pnpm run -C packages/demo build",
+    "preview": "pnpm run -C packages/demo preview"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  }
+}
